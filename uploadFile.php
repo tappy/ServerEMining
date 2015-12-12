@@ -15,7 +15,7 @@ class uploadFile extends database_manager
     private $tempPart;
     private $userID;
     private $data;
-
+    private $json;
     //Getter
     private function getTempName()
     {
@@ -72,7 +72,7 @@ class uploadFile extends database_manager
     {
         $this->setFileName(trim($_FILES ["filUpload"] ["name"]));
         $this->setTempName(trim($_FILES ["filUpload"] ["tmp_name"]));
-        $this->setUserID(trim(filter_input(INPUT_POST, "userID")));
+        $this->setUserID(trim(filter_input(INPUT_POST, "userId")));
         $this->setFilePart("datafile/" . trim($this->getUserID()) . "/");
         $this->setTempPart("temp/" . trim($this->getUserID()) . "/");
 
@@ -85,7 +85,7 @@ class uploadFile extends database_manager
     {
         if (!file_exists(trim($part))) {
             @mkdir($part, 0777, true);
-            @chmod($part, 0777);
+            chmod($part, 0777);
         }
     }
 
