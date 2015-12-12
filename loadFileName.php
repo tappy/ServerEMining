@@ -10,8 +10,9 @@ class loadFileName extends database_manager
     private $userName;
     function __construct()
     {
-        $this->userName=filter_input(INPUT_POST,"userID");
-        $this->tableName=filter_input(INPUT_POST,"tableName");
+        $data = json_decode(file_get_contents("php://input"), true)['LoadFilesNameReq'];
+        $this->userName= json_decode($data, true)["userID"];
+        $this->tableName= json_decode($data, true)["tableName"];
         if($this->connection()){
             $this->loadNow();
         }
