@@ -31,7 +31,7 @@ class updateTable extends database_manager
     {
         if (!file_exists(trim($part))) {
             @mkdir($part, 0777, true);
-            @chmod($part, 0777);
+            chmod($part, 0777);
         }
     }
 
