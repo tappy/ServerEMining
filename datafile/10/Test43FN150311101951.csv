@@ -1,0 +1,387 @@
+Spread,Cause,Area,Age,State,Symptom,Class
+nonCon,Spp,Rot_Top,A1,Tem1,R1,Bd
+nonCon,Spp,Rot_Top,A1,Tem1,R2,Bd
+nonCon,Spp,Rot_Top,A1,Tem1,R3,Bd
+nonCon,Spp,Rot_Top,A1,Tem1,R1R2,Bd
+nonCon,Spp,Rot_Top,A1,Tem1,R1rR3,Bd
+nonCon,Spp,Rot_Top,A1,Tem1,R2R3,Bd
+nonCon,Spp,Rot_Top,A1,Tem1,R1R2R3,Bd
+nonCon,Spp,M,A1,Tem1,C1,Bd
+nonCon,Mara,Top_Le,A3,Tem7,LT4,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT26,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT27,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT28,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT4LT26,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT4LT27,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT4LT28,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT26LT27,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT26LT28,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT27LT28,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT4LT26LT27,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT4LT26LT28,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT4LT27LT28,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT26LT27LT28,Bsr
+nonCon,Mara,Top_Le,A3,Tem7,LT4LT26LT27LT28,Bsr
+nonCon,Mara,Le,A3,Tem7,LT4,Bsr
+nonCon,Mara,Le,A3,Tem7,LT26,Bsr
+nonCon,Mara,Le,A3,Tem7,LT28,Bsr
+nonCon,Mara,Le,A3,Tem7,LT4LT26,Bsr
+nonCon,Mara,Le,A3,Tem7,LT4LT28,Bsr
+nonCon,Mara,Le,A3,Tem7,LT26LT28,Bsr
+nonCon,Mara,Le,A3,Tem7,LT4LT26LT28,Bsr
+nonCon,Mara,Tr,A3,Tem7,T3,Bsr
+nonCon,Mara,Tr,A3,Tem7,T4,Bsr
+nonCon,Mara,Tr,A3,Tem7,T5,Bsr
+nonCon,Mara,Tr,A3,Tem7,T6,Bsr
+nonCon,Mara,Tr,A3,Tem7,T3T4,Bsr
+nonCon,Mara,Tr,A3,Tem7,T3T5,Bsr
+nonCon,Mara,Tr,A3,Tem7,T3T6,Bsr
+nonCon,Mara,Tr,A3,Tem7,T4T5,Bsr
+nonCon,Mara,Tr,A3,Tem7,T4T6,Bsr
+nonCon,Mara,Tr,A3,Tem7,T5T6,Bsr
+nonCon,Mara,Tr,A3,Tem7,T3T4T5,Bsr
+nonCon,Mara,Tr,A3,Tem7,T3T4T6,Bsr
+nonCon,Mara,Tr,A3,Tem7,T4T5T6,Bsr
+nonCon,Mara,Tr,A3,Tem7,T5T6T3,Bsr
+nonCon,Mara,Tr,A3,Tem7,T3T4T5T6,Bsr
+nonCon,Mara,Topo,A3,Tem7,LT27,Bsr
+nonCon,Mara,Rot,A3,Tem7,R5,Bsr
+nonCon,Oth,Pe_Tl,A3,Tem8,PT7,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT8,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT9,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT10,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT7PT8,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT7PT9,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT7PT10,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT8PT9,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT8PT10,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT9PT10,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT7PT8PT9,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT7PT8PT10,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT8PT9PT10,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT9PT10PT7,Bf
+nonCon,Oth,Pe_Tl,A3,Tem8,PT7PT8PT9PT10,Bf
+Con,Spp,Rot_Top,A2,Tem2,LT1,Ant
+Con,Spp,Le,A2,Tem2,LT2,Ant
+Con,Spp,Le,A2,Tem2,LT3,Ant
+Con,Spp,Le,A2,Tem2,LT4,Ant
+Con,Spp,Le,A2,Tem2,LT2LT3,Ant
+Con,Spp,Le,A2,Tem2,LT2LT4,Ant
+Con,Spp,Le,A2,Tem2,LT3LT4,Ant
+Con,Spp,Le,A2,Tem2,LT2LT34,Ant
+Con,Spp,Top,A2,Tem2,LT1,Ant
+nonCon,Spp,Top_Le,A3,Tem3,LT22,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT23,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT22LT23,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT22LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT22LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT23LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT23LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT22LT23LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT22LT23LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT23LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT24LT25LT22,Sr
+nonCon,Spp,Top_Le,A3,Tem3,LT22LT23LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT22,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT23,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT22LT23,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT22LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT22LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT23LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT23LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT22LT23LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT22LT23LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT23LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT24LT25LT22,Sr
+nonCon,Bac,Top_Le,A3,Tem3,LT22LT23LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT22,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT23,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT22LT23,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT22LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT22LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT23LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT23LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT22LT23LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT22LT23LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT23LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT24LT25LT22,Sr
+nonCon,SppBac,Top_Le,A3,Tem3,LT22LT23LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT22,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT23,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT22LT23,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT22LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT22LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT23LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT23LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT22LT23LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT22LT23LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT23LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT24LT25LT22,Sr
+nonCon,Spp,Top_Le,A3,Tem4,LT22LT23LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT22,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT23,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT22LT23,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT22LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT22LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT23LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT23LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT22LT23LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT22LT23LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT23LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT24LT25LT22,Sr
+nonCon,Bac,Top_Le,A3,Tem4,LT22LT23LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT22,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT23,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT22LT23,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT22LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT22LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT23LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT23LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT22LT23LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT22LT23LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT23LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT24LT25LT22,Sr
+nonCon,SppBac,Top_Le,A3,Tem4,LT22LT23LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT22,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT23,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT22LT23,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT22LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT22LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT23LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT23LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT22LT23LT24,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT22LT23LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT23LT24LT25,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT24LT25LT22,Sr
+nonCon,Spp,Top_Le,A3,Tem5,LT22LT23LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT22,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT23,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT22LT23,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT22LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT22LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT23LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT23LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT22LT23LT24,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT22LT23LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT23LT24LT25,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT24LT25LT22,Sr
+nonCon,Bac,Top_Le,A3,Tem5,LT22LT23LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT22,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT23,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT22LT23,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT22LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT22LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT23LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT23LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT22LT23LT24,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT22LT23LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT23LT24LT25,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT24LT25LT22,Sr
+nonCon,SppBac,Top_Le,A3,Tem5,LT22LT23LT24LT25,Sr
+nonCon,Spp,Leo-Topo,A3,Tem4,LT22,Sr
+nonCon,Spp,Leo-Topo,A3,Tem3,LT22,Sr
+nonCon,Spp,Leo-Topo,A3,Tem4,LT22,Sr
+nonCon,Spp,Leo-Topo,A3,Tem3,LT23,Sr
+nonCon,Spp,Leo-Topo,A3,Tem5,LT24,Sr
+nonCon,Bac,Leo-Topo,A3,Tem4,LT22,Sr
+nonCon,Bac,Leo-Topo,A3,Tem3,LT22,Sr
+nonCon,Bac,Leo-Topo,A3,Tem4,LT22,Sr
+nonCon,Bac,Leo-Topo,A3,Tem3,LT23,Sr
+nonCon,Bac,Leo-Topo,A3,Tem5,LT24,Sr
+nonCon,SppBac,Leo-Topo,A3,Tem4,LT22,Sr
+nonCon,SppBac,Leo-Topo,A3,Tem3,LT22,Sr
+nonCon,SppBac,Leo-Topo,A3,Tem4,LT22,Sr
+nonCon,SppBac,Leo-Topo,A3,Tem3,LT23,Sr
+nonCon,Spp,Leo-Topo,A3,Tem5,LT24,Sr
+nonCon,No_cou,Topo,A3,Tem8,LT29,Kn
+nonCon,No_cou,Topo,A3,Tem8,LT30,Kn
+nonCon,No_cou,Topo,A3,Tem8,LT29LT30,Kn
+nonCon,No_cou,Tle,A3,Tem8,LT31,Kn
+nonCon,Spp,Pe,A3,Tem8,PT5,FR
+nonCon,Spp,Pe,A3,Tem8,PT6,FR
+nonCon,Spp,Pe,A3,Tem8,PT5PT6,FR
+nonCon,No_cou,Er,A3,Tem8,LT36,Sw
+nonCon,No_cou,Er,A3,Tem8,T10,Sw
+nonCon,No_cou,Topo,A3,Tem5,LT32,BRLLD
+nonCon,No_cou,Le,A3,Tem5,LT33,BRLLD
+nonCon,No_cou,Top,A3,Tem5,LT34,BRLLD
+nonCon,No_cou,Top,A3,Tem5,LT35,BRLLD
+nonCon,No_cou,Top,A3,Tem5,LT34LT35,BRLLD
+Con,Spp,Le,A2,Tem8,LT4,SB
+Con,Spp,Le,A2,Tem8,LT5,SB
+Con,Spp,Le,A2,Tem8,LT6,SB
+Con,Spp,Le,A2,Tem8,LT7,SB
+Con,Spp,Le,A2,Tem8,LT4LT5,SB
+Con,Spp,Le,A2,Tem8,LT4LT6,SB
+Con,Spp,Le,A2,Tem8,LT4LT7,SB
+Con,Spp,Le,A2,Tem8,LT5LT6,SB
+Con,Spp,Le,A2,Tem8,LT5LT7,SB
+Con,Spp,Le,A2,Tem8,LT6LT7,SB
+Con,Spp,Le,A2,Tem8,LT4LT5LT6,SB
+Con,Spp,Le,A2,Tem8,LT4LT5LT7,SB
+Con,Spp,Le,A2,Tem8,LT5LT6LT7,SB
+Con,Spp,Le,A2,Tem8,LT6LT7LT4,SB
+Con,Spp,Le,A2,Tem8,LT4LT5LT6LT7,SB
+Con,Spp,Tr,A2,Tem8,T1,SB
+Con,Spp,Tr,A2,Tem8,T2,SB
+Con,Spp,Tr,A2,Tem8,T1T2,SB
+Con,Spp,Le,A2,Tem3,LT9,Hl
+Con,Spp,Le,A2,Tem3,LT10,Hl
+Con,Spp,Le,A2,Tem3,LT11,Hl
+Con,Spp,Le,A2,Tem3,LT9LT10,Hl
+Con,Spp,Le,A2,Tem3,LT9LT11,Hl
+Con,Spp,Le,A2,Tem3,LT10LT11,Hl
+Con,Spp,Le,A2,Tem3,LT9LT10LT11,Hl
+Con,Spp,Leo-Topo,A2,Tem3,LT8,Hl
+Con,Spp,Le,A2,Tem3,LT12,B
+Con,Spp,Le,A2,Tem3,LT13,B
+Con,Spp,Le,A2,Tem3,LT14,B
+Con,Spp,Le,A2,Tem3,LT12LT13,B
+Con,Spp,Le,A2,Tem3,LT12LT14,B
+Con,Spp,Le,A2,Tem3,LT13LT14,B
+Con,Spp,Le,A2,Tem3,LT12LT13LT14,B
+Con,Spp,Lew_Top,A2,Tem3,LT15,B
+Con,Spp,Rot,A2,Tem3,R4,B
+Con,Gen ,Topo,A3,Tem8,LT16,Cd
+Con,Gen ,Topo,A3,Tem8,LT17,Cd
+Con,Gen ,Topo,A3,Tem8,LT18,Cd
+Con,Gen ,Topo,A3,Tem8,LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT18,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT18LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT18LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT18LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT18LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT18LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT18LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT18LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT18LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT18LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT19LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT19,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT18LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT18LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT19LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT18LT19LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT18LT19LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT19LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT20LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT19LT21,Cd
+Con,Gen ,Topo,A3,Tem8,LT16LT17LT18LT19LT20,Cd
+Con,Gen ,Topo,A3,Tem8,LT17LT18LT19LT20LT21,Cd
+Con,Spp,Pe_Tl,A3,Tem5,PT1PT2,Mbr
+Con,Spp,Pe_Tl,A3,Tem5,PT1PT3,Mbr
+Con,Spp,Pe_Tl,A3,Tem5,PT4PT2,Mbr
+Con,Spp,Pe_Tl,A3,Tem5,PT4PT3,Mbr
+Con,Spp,Pe_Tl,A3,Tem6,PT1PT2,Mbr
+Con,Spp,Pe_Tl,A3,Tem6,PT1PT3,Mbr
+Con,Spp,Pe_Tl,A3,Tem6,PT4PT2,Mbr
+Con,Spp,Pe_Tl,A3,Tem6,PT4PT3,Mbr
+Con,Spp,Pe,A3,Tem5,PT2,Mbr
+Con,Spp,Pe,A3,Tem5,PT3,Mbr
+Con,Spp,Pe,A3,Tem5,PT2PT3,Mbr
+Con,Spp,Tr,A3,Tem7,T5,Usr
+Con,Spp,Tr,A3,Tem7,T6,Usr
+Con,Spp,Tr,A3,Tem7,T7,Usr
+Con,Spp,Tr,A3,Tem7,T8,Usr
+Con,Spp,Tr,A3,Tem7,T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T6,Usr
+Con,Spp,Tr,A3,Tem7,T5T7,Usr
+Con,Spp,Tr,A3,Tem7,T5T8,Usr
+Con,Spp,Tr,A3,Tem7,T5T9,Usr
+Con,Spp,Tr,A3,Tem7,T6T7,Usr
+Con,Spp,Tr,A3,Tem7,T6T8,Usr
+Con,Spp,Tr,A3,Tem7,T6T9,Usr
+Con,Spp,Tr,A3,Tem7,T7T8,Usr
+Con,Spp,Tr,A3,Tem7,T7T9,Usr
+Con,Spp,Tr,A3,Tem7,T8T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T6T7,Usr
+Con,Spp,Tr,A3,Tem7,T5T6T8,Usr
+Con,Spp,Tr,A3,Tem7,T5T6T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T7T8,Usr
+Con,Spp,Tr,A3,Tem7,T5T7T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T8T9,Usr
+Con,Spp,Tr,A3,Tem7,T6T7T8,Usr
+Con,Spp,Tr,A3,Tem7,T6T7T9,Usr
+Con,Spp,Tr,A3,Tem7,T6T8T9,Usr
+Con,Spp,Tr,A3,Tem7,T7T8T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T6T7T8,Usr
+Con,Spp,Tr,A3,Tem7,T5T6T7T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T6T8T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T7T8T9,Usr
+Con,Spp,Tr,A3,Tem7,T6T7T8T9,Usr
+Con,Spp,Tr,A3,Tem7,T5T6T7T8T9,Usr
+Con,Spp,Tle,A3,Tem7,LT26,Usr
+Con,Mara,M,A1,Tem1,C1,SC
+Con,Mara,M,A1,Tem1,C2,SC
+Con,Mara,M,A1,Tem1,C3,SC
+Con,Mara,M,A1,Tem1,C1C2,SC
+Con,Mara,M,A1,Tem1,C1C3,SC
+Con,Mara,M,A1,Tem1,C2C3,SC
+Con,Mara,M,A1,Tem1,C1C2C3,SC
+Con,Spp,Le,A3,Tem5,LT37,As
+Con,Spp,Le,A3,Tem5,LT38,As
+Con,Spp,Le,A3,Tem5,LT39,As
+Con,Spp,Le,A3,Tem5,LT37LT38,As
+Con,Spp,Le,A3,Tem5,LT37LT39,As
+Con,Spp,Le,A3,Tem5,LT38LT39,As
+Con,Spp,Le,A3,Tem5,LT37LT38LT39,As
