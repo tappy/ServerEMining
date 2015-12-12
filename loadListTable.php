@@ -9,9 +9,8 @@ class loadListTable extends database_manager {
     private $userID;
 
     function loadData() {
-        $data = file_get_contents(json_decode("php://input", true))['TableLoaderReq'];
-        $this->userID = json_decode(data, true)['userId'];
-        //$this->userID =9;
+        $data = json_decode(file_get_contents("php://input"), true)['TableLoaderReq'];
+        $this->userID = json_decode($data, true)['userId'];
         $val = null;
         if ($this->connection()) {
             $q = mysql_query("SELECT DISTINCT table_name FROM `uploadList` WHERE user_id=" . $this->userID . " ORDER BY id_upload desc ");
