@@ -1,26 +1,26 @@
 <?php
-function __autoload($class_name)
-{
+
+function __autoload($class_name) {
     include $class_name . ".php";
 }
 
-class getClusterModel
-{
+class getClusterModel {
+
     private $getCluster;
     private $data;
     private $userid;
     private $part;
+    private $json;
 
-    function __construct()
-    {
-        $this->getCluster = filter_input(INPUT_POST, "getParam");
-        $this->userid = filter_input(INPUT_POST, "userid");
+    function __construct() {
+        $this->json = json_decode(json_decode(file_get_contents("php://input"), true)['GetClusterModelReq'], true);
+        $this->getCluster = $this->json["param"];
+        $this->userid = $this->json["userid"];
         $this->part = 'modelfile/' . $this->userid . '/';
         $this->getContent();
     }
 
-    function loadDataByParam()
-    {
+    function loadDataByParam() {
         if ($this->getCluster == "head") {
             $this->getHead();
         } else if ($this->getCluster == "body") {
@@ -32,8 +32,7 @@ class getClusterModel
         }
     }
 
-    private function getContent()
-    {
+    private function getContent() {
         $hfile = fopen($this->part . "temp_model.txt", "r");
         while (!feof($hfile)) {
             $this->data [] = fgets($hfile);
@@ -41,8 +40,7 @@ class getClusterModel
         fclose($hfile);
     }
 
-    private function getHead()
-    {
+    private function getHead() {
         $json = array();
         $fLine = $this->getFirstLine(20, "Number of iterations");
         $endLine = ($this->getEndLine($fLine) - 1);
@@ -52,13 +50,13 @@ class getClusterModel
         echo json_encode($json);
     }
 
-    private function getBody()
-    {
+    private function getBody() {
         $fLine = ($this->getFirstLine(5, "=====") + 1);
         echo "[";
         foreach ($this->data as $key => $value) {
             if ($key >= $fLine) {
-                if (strlen($value) <= 1) break;
+                if (strlen($value) <= 1)
+                    break;
                 else {
                     if ($key < count($this->data) - 1 && $key > $fLine) {
                         echo ",";
@@ -69,7 +67,8 @@ class getClusterModel
                 foreach ($mexp as $k => $v) {
                     if ($v != "") {
                         echo json_encode($v);
-                        if ($k < count($mexp) - 1) echo ",";
+                        if ($k < count($mexp) - 1)
+                            echo ",";
                     }
                 }
                 echo "]";
@@ -78,8 +77,7 @@ class getClusterModel
         echo "]";
     }
 
-    private function getFirstLine($glenght, $text)
-    {
+    private function getFirstLine($glenght, $text) {
         $keyLine = 0;
         foreach ($this->data as $key => $value) {
             if (trim(substr($value, 0, $glenght)) == $text) {
@@ -89,8 +87,7 @@ class getClusterModel
         return $keyLine;
     }
 
-    private function getEndLine($fLine)
-    {
+    private function getEndLine($fLine) {
         $keyLine = 0;
         foreach ($this->data as $key => $value) {
             if ($key >= $fLine && (trim(substr($value, 0, 1)) == "")) {
@@ -101,8 +98,7 @@ class getClusterModel
         return $keyLine;
     }
 
-    private function getFooter()
-    {
+    private function getFooter() {
         $json = array();
         foreach ($this->data as $key => $value) {
             if ($key >= $this->getFirstLine(19, "Clustered Instances")) {
