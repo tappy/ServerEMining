@@ -12,10 +12,11 @@ class deleteUploadList extends database_manager {
     private $filepart;
     private $userID;
     public function __construct() {
-        $this->uploadTable = filter_input(INPUT_POST, "uploadTable"); //0=POST 1=GET
-        $this->fileName = filter_input(INPUT_POST, "fileName");
-        $this->listID = filter_input(INPUT_POST, "id_upload");
-        $this->userID= filter_input(INPUT_POST,"userid");
+        $data = json_decode(file_get_contents("php://input"), true)['DeleteTableReq'];
+        $this->uploadTable = json_decode($data, true)["uploadTable"]; //0=POST 1=GET
+        $this->fileName = json_decode($data, true)["fileName"];
+        $this->listID = json_decode($data, true)["idUpload"];
+        $this->userID= json_decode($data, true)["userid"];
         $this->filepart="datafile/".$this->userID."/";
     }
 
